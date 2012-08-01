@@ -1,0 +1,37 @@
+PATH
+  remote: .
+  specs:
+    gitolite (0.0.3.alpha)
+      grit (~> 2.4.1)
+      hashery (~> 1.4.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    diff-lcs (1.1.2)
+    forgery (0.5.0)
+    grit (2.4.1)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+    hashery (1.4.0)
+    mime-types (1.16)
+    rcov (0.9.11)
+    rdoc (3.9.4)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.0)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  forgery (~> 0.5.0)
+  gitolite!
+  rcov (~> 0.9.11)
+  rdoc (~> 3.9.4)
+  rspec (~> 2.6.0)
