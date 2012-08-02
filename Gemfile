@@ -6,6 +6,11 @@ gem "rails", "3.2.5"
 gem "sqlite3"
 gem "mysql2"
 
+# Supported app stacks
+gem "puma"
+gem "thin"
+gem "unicorn"
+
 # Auth
 gem "devise", "~> 2.1.0"
 
@@ -27,8 +32,6 @@ gem "six"
 gem "ffaker"
 gem "seed-fu"
 gem "redcarpet", "~> 2.1.1"
-gem "thin"
-gem "unicorn"
 gem "git"
 gem "acts_as_list"
 gem "acts-as-taggable-on", "2.3.1"
