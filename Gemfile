@@ -5,6 +5,7 @@ gem "rails", "3.2.5"
 # Supported DBs
 gem "sqlite3"
 gem "mysql2"
+gem "pg"
 
 # Supported app stacks
 gem "puma"

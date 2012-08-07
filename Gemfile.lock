@@ -227,6 +227,7 @@ GEM
       hashie (~> 1.2)
       rack
     orm_adapter (0.3.0)
+    pg (0.14.0)
     polyglot (0.3.3)
     posix-spawn (0.3.6)
     pry (0.9.9.6)
@@ -408,6 +409,7 @@ DEPENDENCIES
   modernizr (= 2.5.3)
   mysql2
   omniauth-ldap!
+  pg
   pry
   puma
   pygments.rb!
