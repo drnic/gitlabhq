@@ -48,8 +48,9 @@ namespace :gitlab do
         return
       end
 
-      print "UMASK for .gitolite.rc is 0007? ............"
-      unless open("#{git_base_path}/../.gitolite.rc").grep(/REPO_UMASK = 0007/).empty?
+      dot_gitolite_rc = File.join(git_base_path, '/../.gitolite.rc')
+      print "UMASK for #{dot_gitolite_rc} is 0007? ............"
+      unless open(dot_gitolite_rc).grep(/UMASK\s*\=>\s*0007/).empty?
         puts "YES".green 
       else
         puts "NO".red
